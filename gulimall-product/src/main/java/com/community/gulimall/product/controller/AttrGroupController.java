@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.community.gulimall.product.entity.AttrGroupEntity;
 import com.community.gulimall.product.service.AttrGroupService;
-import com.community.common.utils.PageUtils;
-import com.community.common.utils.R;
+import com.community.gulimall.common.utils.PageUtils;
+import com.community.gulimall.common.utils.R;
 
 
 
