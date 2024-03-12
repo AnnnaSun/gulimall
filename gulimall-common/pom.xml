@@ -77,7 +77,7 @@
             <scope>compile</scope>
         </dependency>
 
-<!--        nacos注册中心-->
+<!--        nacos注册中心，服务的注册发现-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-loadbalancer</artifactId>
@@ -94,6 +94,19 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+<!--      配置中心做配置管理  -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+<!--        解决No spring.config.import property has been defined 问题-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
 
 
     </dependencies>
