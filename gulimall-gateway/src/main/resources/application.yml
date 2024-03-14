@@ -1,0 +1,13 @@
+#http://localhost:88/?url=qq
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test_root
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+        - id: qq_route
+          uri: https://www.qq.com
+          predicates:
+            - Query=url,qq
