@@ -27,3 +27,10 @@ server:
 logging:
   level:
     com.community.gulimall: debug
+
+alibaba:
+  cloud:
+    access-key: LTAI5tEq7agfEDorJJfKwZbS
+    secret-key: MibvBX2VutqAQOLzUi3QvXOtHgMCBc
+    oss:
+      endpoint: oss-cn-shanghai.aliyuncs.com
