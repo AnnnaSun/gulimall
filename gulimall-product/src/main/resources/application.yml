@@ -30,7 +30,5 @@ logging:
 
 alibaba:
   cloud:
-    access-key:
-    secret-key:
     oss:
       endpoint: oss-cn-shanghai.aliyuncs.com
